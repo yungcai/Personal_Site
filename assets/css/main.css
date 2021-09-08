@@ -2546,16 +2546,21 @@ input, select, textarea {
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			border: 5px solid red;
+			/* border: 5px solid red; */
 			/* background-image: image-url('ycai.jpg'); */
 			/* background-color: red; */
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
-			padding: 3em;
+			/* padding: 3em; */
 			text-align: center;
 		}
 
+
+		#banner img{
+			height:auto;
+			width:350px;
+		}
 			#banner .inner header {
 				display: inline-block;
 				border-bottom: solid 2px;
